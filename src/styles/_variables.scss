@@ -1,0 +1,34 @@
+$mq-bp: (
+  //576px
+  small: "screen and (min-width:36em)",
+  //768px
+  medium: "screen and (min-width:48em)",
+  //992px
+  large: "screen and (min-width:62em)",
+  //1200px
+  xlarge: "screen and (min-width:75em)"
+);
+
+$colors: (
+  bgc: #f2f5ff,
+  primary: #1d2d60,
+  secondary: #fdd835,
+  tertiary: #f4f7ff,
+  gradient1: #eae5c9,
+  gradient2: #6cc6cb,
+  contact-icon: #378d00,
+  btn-bgc: #dbe3fc,
+  mobile-pack: #f56c8a,
+  pwa-pack: #f59716,
+  company-pack: #547bf9,
+  about1: #17a2b8,
+);
+
+$img-bgi: (
+  webapp_class: url("../images/webApplication.png"),
+  mobapp_class: url("../images/mobileApplication.png"),
+  pwa_class: url("../images/PWA.png"),
+  website_class: url("../images/webSite.png"),
+  graphic_class: url("../images/graphicDesigne.png"),
+  seo_class: url("../images/SEO.png"),
+);
